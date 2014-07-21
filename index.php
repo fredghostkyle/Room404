@@ -1,13 +1,6 @@
 <?php
 
-//regular risplay of text
-//$text = file_get_contents($textPath, FILE_USE_INCLUDE_PATH);
-//$textPath = "./comicfiles/"+$page+"/lines.txt",
-
-//image
-// $image = "./comicfiles/"+$page+"/image.png";
-
-//cookies! <3
+//setup $page & determen if new. 
 if(isset($_COOKIE["page"])) {
 //
     $page = $_COOKIE["page"]; //not new user. will move to page last seen by cookie.
@@ -16,6 +9,15 @@ else {
     $welcome = true; //new user
     setcookie("page", 000000); //now NOT new user
 } 
+
+
+//regular risplay of text
+$textPath = "./comicfiles/".$page."/lines.txt";
+
+$text = file_get_contents($textPath, FILE_USE_INCLUDE_PATH);
+
+//image
+$image = "./comicfiles/".$page."/image.png";
 ?>
 
 
@@ -84,8 +86,8 @@ else {
             
           <div class="jumbotron">
             <center><p><h1>Web Comic</h1></p></center>
-            <center><p><img src="http://www.mspaintadventures.com/storyfiles/hs2/00001.gif" width="100%" hight="100%"></p></center>
-            <center><h5>Welcome to Web Comic! We are amazing. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </h3></center>
+            <center><p><img src="<?php echo $image;?>" width="100%" hight="100%"></p></center>
+            <center><h5><?php echo $text;?></h5></center>
             <br>
             <center><p><a href="./?comic=<?php echo $_COOKIE['page'] +1;?>"><button class="btn btn-info btn-sm">==></button></a></p></center>
           </div>
