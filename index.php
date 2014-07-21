@@ -1,31 +1,34 @@
 <?php
+//seting $page and cookie.
 
-//if you clicked the button, you will need to set the cookie. Will do this now.
+
+//first check to see if you changed pages
 if (isset($_GET["page"])) {
-    $page = $_GET["page"];
+    $page = $_GET["page"]; //set new page
     setcookie("page", $page);
 }
     //setup $page & determen if new.
-    elseif(isset($_COOKIE["page"])) { 
+    elseif(isset($_COOKIE["page"])) { //no new page found? check to see if returning visitor or not
         $page = $_COOKIE["page"]; //not new user. will move to page last seen by cookie.
     }
-        else {
-            $welcome = true; //new user
-            $page = 1;
+        else { //well your a new user! Welcome! 
+            $welcome = 1; //new user
+            $page = 1; //make page defult 
             setcookie("page", 000001); //now NOT new user
         } 
 
 
-//regular risplay of text
+//regular display of text
 $textPath = "./comicfiles/".$page."/lines.txt";
 $text = file_get_contents($textPath, FILE_USE_INCLUDE_PATH);
 
-//image
+//image path
 $image = "./comicfiles/".$page."/image.png";
 
-//title
+//title path
 $titlePath = "./comicfiles/".$page."/title.txt";
 $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
+
 ?>
 
 
@@ -88,8 +91,9 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
 
         <div class="col-xs-12 col-sm-9">
           <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Recent Updates</button>
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Pages</button>
           </p>
+          <br>
           <br>
             
           <div class="jumbotron">
@@ -107,6 +111,14 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
             <h3>Pages</h3>
           <div class="list-group">
+<?php
+if($page-1 <= 0) {
+    echo '';
+}
+else {
+    $pageMinus = $page -1;
+    echo '            <a href="./?page='.$pageMinus.'" class="list-group-item">Page '.$pageMinus.' (previous page)</a>';
+} ?>
             <a href="./?page=<?php echo $page;?>" class="list-group-item active">Page <?php echo $page;?> (current page)</a>
             <a href="./?page=<?php echo $page +1;?>" class="list-group-item">Page <?php echo $page +1;?></a>
             <a href="./?page=<?php echo $page +2;?>" class="list-group-item">Page <?php echo $page +2;?></a>
@@ -116,7 +128,7 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
             <a href="./?page=<?php echo $page +6;?>" class="list-group-item">Page <?php echo $page +6;?></a>
             <a href="./?page=<?php echo $page +7;?>" class="list-group-item">Page <?php echo $page +7;?></a>
             <a href="./?page=<?php echo $page +8;?>" class="list-group-item">Page <?php echo $page +8;?></a>
-            <a href="./?page=<?php echo $page +9;?>" class="list-group-item">Page <?php echo $page +9;?></a>
+
           </div>
         </div><!--/span-->
       </div><!--/row-->
