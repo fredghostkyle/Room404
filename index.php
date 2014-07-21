@@ -1,14 +1,19 @@
 <?php
 
-//setup $page & determen if new. 
-if(isset($_COOKIE["page"])) {
-//
-    $page = $_COOKIE["page"]; //not new user. will move to page last seen by cookie.
+//if you clicked the button, you will need to set the cookie. Will do this now.
+if (isset($_GET["page"])) {
+    $page = $_GET["page"];
+    setcookie("page", $page);
 }
-else {
-    $welcome = true; //new user
-    setcookie("page", 000000); //now NOT new user
-} 
+    //setup $page & determen if new.
+    elseif(isset($_COOKIE["page"])) { 
+        $page = $_COOKIE["page"]; //not new user. will move to page last seen by cookie.
+    }
+        else {
+            $welcome = true; //new user
+            $page = 0;
+            setcookie("page", 000000); //now NOT new user
+        } 
 
 
 //regular risplay of text
@@ -89,7 +94,7 @@ $image = "./comicfiles/".$page."/image.png";
             <center><p><img src="<?php echo $image;?>" width="100%" hight="100%"></p></center>
             <center><h5><?php echo $text;?></h5></center>
             <br>
-            <center><p><a href="./?comic=<?php echo $_COOKIE['page'] +1;?>"><button class="btn btn-info btn-sm">==></button></a></p></center>
+            <center><p><a href="./?page=<?php echo $page+1;?>"><button class="btn btn-info btn-sm">==></button></a></p></center>
           </div>
             
             <!-- Place contents of row.html here for best result. -->
