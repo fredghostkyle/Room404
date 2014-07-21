@@ -11,8 +11,8 @@ if (isset($_GET["page"])) {
     }
         else {
             $welcome = true; //new user
-            $page = 0;
-            setcookie("page", 000000); //now NOT new user
+            $page = 1;
+            setcookie("page", 000001); //now NOT new user
         } 
 
 
@@ -105,18 +105,18 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
         </div><!--/span-->
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-            <h3>Recent Updates</h3>
+            <h3>Pages</h3>
           <div class="list-group">
-            <a href="./" class="list-group-item active">Page 1</a>
-            <a href="./" class="list-group-item">Page 2</a>
-            <a href="./" class="list-group-item">Page 3</a>
-            <a href="./" class="list-group-item">Page 4</a>
-            <a href="./" class="list-group-item">Page 5</a>
-            <a href="./" class="list-group-item">Page 6</a>
-            <a href="./" class="list-group-item">Page 7</a>
-            <a href="./" class="list-group-item">Page 8</a>
-            <a href="./" class="list-group-item">Page 9</a>
-            <a href="./" class="list-group-item"></a>
+            <a href="./?page=<?php echo $page;?>" class="list-group-item active">Page <?php echo $page;?> (current page)</a>
+            <a href="./?page=<?php echo $page +1;?>" class="list-group-item">Page <?php echo $page +1;?></a>
+            <a href="./?page=<?php echo $page +2;?>" class="list-group-item">Page <?php echo $page +2;?></a>
+            <a href="./?page=<?php echo $page +3;?>" class="list-group-item">Page <?php echo $page +3;?></a>
+            <a href="./?page=<?php echo $page +4;?>" class="list-group-item">Page <?php echo $page +4;?></a>
+            <a href="./?page=<?php echo $page +5;?>" class="list-group-item">Page <?php echo $page +5;?></a>
+            <a href="./?page=<?php echo $page +6;?>" class="list-group-item">Page <?php echo $page +6;?></a>
+            <a href="./?page=<?php echo $page +7;?>" class="list-group-item">Page <?php echo $page +7;?></a>
+            <a href="./?page=<?php echo $page +8;?>" class="list-group-item">Page <?php echo $page +8;?></a>
+            <a href="./?page=<?php echo $page +9;?>" class="list-group-item">Page <?php echo $page +9;?></a>
           </div>
         </div><!--/span-->
       </div><!--/row-->
