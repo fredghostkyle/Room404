@@ -18,11 +18,14 @@ if (isset($_GET["page"])) {
 
 //regular risplay of text
 $textPath = "./comicfiles/".$page."/lines.txt";
-
 $text = file_get_contents($textPath, FILE_USE_INCLUDE_PATH);
 
 //image
 $image = "./comicfiles/".$page."/image.png";
+
+//title
+$titlePath = "./comicfiles/".$page."/title.txt";
+$title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
 ?>
 
 
@@ -90,8 +93,8 @@ $image = "./comicfiles/".$page."/image.png";
           <br>
             
           <div class="jumbotron">
-            <center><p><h1>Web Comic</h1></p></center>
-            <center><p><img src="<?php echo $image;?>" width="100%" hight="100%"></p></center>
+            <center><p><h1><?php echo $title;?></h1></p></center>
+            <center><p><img src="<?php echo $image;?>" alt="Image for <?php echo $page;?>." width="100%" hight="100%"></p></center>
             <center><h5><?php echo $text;?></h5></center>
             <br>
             <center><p><a href="./?page=<?php echo $page+1;?>"><button class="btn btn-info btn-sm">==></button></a></p></center>
