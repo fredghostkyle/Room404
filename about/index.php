@@ -86,8 +86,8 @@
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
               <h2>Clay</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="./" role="button">View details »</a></p>
+              <p>I enjoy long walks on the beach. I enjoy long walks on the beach. I enjoy long walks on the beach.</p>
+              <p><a class="btn btn-default" href="http://fb.com/" role="button">FB</a></p>
             </div><!--/span-->
           </div>
       <hr>
