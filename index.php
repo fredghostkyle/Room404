@@ -87,6 +87,7 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
                   <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-file"></span> Page Placment</li>
                   <li><a href="#"><span class="glyphicon glyphicon-floppy-save"></span> Save current page (automatic)</a></li>
                   <li><a href="#"><span class="glyphicon glyphicon-fire"></span> Reset page placment</a></li>
+                  <li><a href="comicfiles/workings"><span class="glyphicon glyphicon-info-sign"></span> Info on page placment/saving</a>
                   <li role="presentation" class="divider"></li>
                   <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-file"></span> Page Jump</li>
                   <form class="navbar-form form-group-sm" role="search" method="get" action="./">

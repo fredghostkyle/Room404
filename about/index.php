@@ -58,7 +58,7 @@
                   <li><a href="#"><span class="glyphicon glyphicon-fire"></span> Reset page placment</a></li>
                   <li role="presentation" class="divider"></li>
                   <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-file"></span> Page Jump</li>
-                  <form class="navbar-form form-group-sm" role="search" method="get" action="./">
+                  <form class="navbar-form form-group-sm" role="search" method="get" action="../">
                     <div class="input-group form-group-sm">
                         <input type="text" class="form-control" placeholder="Page #" name="page">
                         <span class="input-group-btn">
