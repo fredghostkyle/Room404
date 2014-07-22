@@ -29,7 +29,7 @@
   </head>
 
   <body>
-    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -38,18 +38,41 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../">Web Comic</a>
+          <a class="navbar-brand" href="./">Web Comic</a>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse navbar-left">
           <ul class="nav navbar-nav">
             <li><a href="../">Comic</a></li>
             <li><a href="../store">Store</a></li>
-            <li class="active"><a href="./">About/Contact</a></li>
+            <li class="active"><a href="../about">About/Contact</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+        <div class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+          
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"> </span><span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                  <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-file"></span> Page Placment</li>
+                  <li><a href="#"><span class="glyphicon glyphicon-floppy-save"></span> Save current page (automatic)</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-fire"></span> Reset page placment</a></li>
+                  <li role="presentation" class="divider"></li>
+                  <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-file"></span> Page Jump</li>
+                  <form class="navbar-form form-group-sm" role="search" method="get" action="./">
+                    <div class="input-group form-group-sm">
+                        <input type="text" class="form-control" placeholder="Page #" name="page">
+                        <span class="input-group-btn">
+                            <button class="btn btn-success" type="submit">Jump</button>
+                        </span>
+                    </div><!-- /input-group -->
+                  </form>
+              </ul>
+          </li>
           </ul>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
     </div><!-- /.navbar -->
-
+      
     <div class="container">            
           <div class="jumbotron">
             <center><p><h1>About</h1></p></center>
