@@ -76,7 +76,7 @@
     <div class="container">            
           <div class="jumbotron">
             <center><p><h1>Page Placment Help</h1></p></center>
-            <center><h5>Don't understand how our Page Placment system works? Thats okay! First thing to know is that we use cookies. If you have cookies dissabled this feature will not work. Next off our system saves the last page you were on. So, for example if you stoped reading on page 10. Then come back later (assuming you have no cleared cookies) you should auto load to page 10. You can also clear the system (reset it to page 1) or save (automaticly done) based off the page your currently on. Just click the cog in the top right, If you still need help email the Web Developer-<a href="mailto:fredghoskyle@yahoo.com?subject=WebComic Page Placment Help">Kyle</a>!</h5></center>
+            <center><h4>Don't understand how our Page Placment system works? Thats okay! First thing to know is that we use cookies. If you have cookies dissabled this feature will not work. Next off our system saves the last page you were on. So, for example if you stoped reading on page 10. Then come back later (assuming you have no cleared cookies) you should auto load to page 10. You can also clear the system (reset it to page 1) or save (automaticly done) based off the page your currently on. Just click the cog in the top right, If you still need help email the Web Developer-<a href="mailto:fredghoskyle@yahoo.com?subject=WebComic Page Placment Help">Kyle</a>!</h5></center>
             <br>
           </div>
       
