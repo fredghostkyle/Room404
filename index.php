@@ -15,7 +15,7 @@ if (isset($_GET["page"])) {
         $page = $_COOKIE["page"]; //not new user. will move to page last seen by cookie.
     }
         else { //well your a new user! Welcome! 
-            $welcome = true; //new user
+            $welcome = 1; //new user
             $page = 1; //make page defult 
             setcookie("page", 000001); //now NOT new user
         } 
@@ -195,39 +195,6 @@ else {
         </div><!--/span-->
       </div><!--/row-->
 
-
-<!-- Modal for $Welcome -->
-<!-- Button trigger modal -->
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel"><center>Welcome!</center></h4>
-      </div>
-      <div class="modal-body">
-        <h1>CONTENT ADVISORY:</h1>
-        <h3>This content is onlt sudgested to peoples over the age of 13. By closing this window you agree to that fact and assume FULL responsobility. If you disslike that idea leave NOW!</h3>
-        <br>
-        <br>
-        <h4>Sorry about that! Leagly we need to get that out of the way, and also we don't need younger kids getting exposed to the type on information here! Welcome to Room 404's Web Comic! We hope you enjoy the hard work we have endlessly put into this. After you close this box you can start reading. Just click the arrow below the image and text to move on. If you enjoy our comic we would greatly apprecait if you perchesed something from our <a href="store/">Store</a>! </h4>
-        <br>
-        <h4>If you have any questions visit the forums or tumblr.</h4>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Lets Read!</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
       <hr>
 
       <footer>
@@ -241,12 +208,6 @@ else {
     <script src="./htmladd/jquery.min.js"></script>
     <script src="./htmladd/bootstrap.min.js"></script>
     <script src="./htmladd/offcanvas.js"></script>
-
-<?php
-if($welcome == true) {
-    echo "<script> $('#myModal').modal('show');</script>";
-}
-?>
 
     </body>
 </html>
