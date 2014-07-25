@@ -13,8 +13,12 @@ We are board as fuck (visit the about page on our website from the defenition of
 Contact the Web Dev.
 =====
 Email: fredghostkyle@yahoo.com (mention room 404)
+
 Twitter: @fredghostkyle
+
 FB: fb.com/fredghostkyle
+
 GitHub: (wow) github.com/fredghostkyle
+
 
 For issues with the website make a ISSUE or a PULL-REQUEST!!!! DONT EMAIL ME JUST FIX/TELL ME! Thanks! 
