@@ -1,6 +1,4 @@
 <html>
-<h1>Redirecting....</h1>
-
 <script>location.href='./closed/'</script>
-    
+<p>Redirecting....</p>
 </html>
