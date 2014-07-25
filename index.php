@@ -2,10 +2,12 @@
 //Remove errors from the page.
 error_reporting(0); 
 
-/*
+/* TODO LIST: 
  * Add 13+ warning expires after ~30d
- * update the name to Room 404
- * get domains
+ * get domains -- room404comic.com; room404comic.org; rm404.in
+ * get the Cog/Gear working across the whole website. 
+ * Working on $welcome popup
+ * Create Welcome compic picture
  */
 
 
