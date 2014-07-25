@@ -2,7 +2,6 @@
 //Remove errors from the page.
 error_reporting(0); 
 
-
 /*
  * Add 13+ warning expires after ~30d
  * update the name to Room 404
@@ -72,7 +71,7 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
     <meta name="author" content="Website: @fredghostkyle. ">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Web Comic</title>
+    <title>Room 404 | Page <?php echo $page;?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="./htmladd/bootstrap.css" rel="stylesheet">
@@ -101,7 +100,7 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="./">Web Comic</a>
+          <a class="navbar-brand" href="./">Room 404</a>
         </div>
         <div class="collapse navbar-collapse navbar-left">
           <ul class="nav navbar-nav">
@@ -118,7 +117,7 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
                   <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-file"></span> Page Placment</a></li>
                   <li><a href="./?save="><span class="glyphicon glyphicon-floppy-save"></span> Save current page (automatic)</a></li>
                   <li><a href="./?reset="><span class="glyphicon glyphicon-fire"></span> Reset page placment</a></li>
-                  <li><a href="comicfiles/workings"><span class="glyphicon glyphicon-info-sign"></span> Info on page placment/saving</a>
+                  <li><a href="./comicfiles/workings"><span class="glyphicon glyphicon-info-sign"></span> Info on page placment/saving</a>
                   <li role="presentation" class="divider"></li>
                   <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-file"></span> Page Jump</li>
                   <form class="navbar-form form-group-sm" role="search" method="get" action="./">
@@ -179,6 +178,10 @@ else {
             <h3>Pages</h3>
           <div class="list-group">
 <?php
+/*
+ * Determen if you need a previous page
+ */
+
 if($page-1 <= 0) {
     echo '';
 }
@@ -202,7 +205,7 @@ else {
       <hr>
 
       <footer>
-        <p>© Web Comic 2014</p>
+        <p>© Room 404 2014</p>
       </footer>
 
     </div><!--/.container-->

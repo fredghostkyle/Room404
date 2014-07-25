@@ -10,7 +10,7 @@
     <meta name="author" content="Website: @fredghostkyle. ">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Web Comic</title>
+    <title>Room 404 | About Us</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../htmladd/bootstrap.css" rel="stylesheet">
@@ -38,7 +38,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="./">Web Comic</a>
+          <a class="navbar-brand" href="../">Room 404</a>
         </div>
         <div class="collapse navbar-collapse navbar-left">
           <ul class="nav navbar-nav">
@@ -76,7 +76,7 @@
     <div class="container">            
           <div class="jumbotron">
             <center><p><h1>About</h1></p></center>
-            <center><h5>We are a bung of teens board out of our mindes. &lsaquo;3. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </h3></center>
+            <center><h5>We are a bung of teens board out of our mindes. &lsaquo;3. We also like <a href="../40404040404040404040404040404">404 Errors</a> </h3></center>
             <br>
           </div>
       
@@ -116,7 +116,7 @@
       <hr>
 
       <footer>
-        <p>© Web Comic 2014</p>
+        <p>© Room 404 2014</p>
       </footer>
 
     </div><!--/.container-->

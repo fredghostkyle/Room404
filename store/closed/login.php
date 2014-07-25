@@ -11,7 +11,7 @@
     <meta name="author" content="Website: @fredghostkyle. ">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Web Comic</title>
+    <title>Room 404 | Store</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../htmladd/bootstrap.css" rel="stylesheet">
@@ -39,7 +39,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../../">Web Comic</a>
+          <a class="navbar-brand" href="../../">Room 404</a>
         </div>
         <div class="collapse navbar-collapse navbar-left">
           <ul class="nav navbar-nav">
@@ -106,7 +106,7 @@
       
       <hr>
       <footer>
-        <p>© Web Comic 2014</p>
+        <p>© Room 404 2014</p>
         <p class="pull-right"><a href="login.php">login</a></p>
       </footer>
 
