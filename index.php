@@ -1,4 +1,14 @@
 <?php
+//Remove errors from the page.
+error_reporting(0); 
+
+
+/*
+ * Add 13+ warning expires after ~30d
+ * update the name to Room 404
+ * get domains
+ */
+
 
 /*
  * Setting up the comic's settings
@@ -19,7 +29,7 @@ if (isset($_GET["page"])) {
         } 
 
 /*
- * Exceicure anything from the cog/Page Placment (note:must be placed above comic setup).
+ * Exceicute anything from the cog/Page Placment (note:must be placed above comic setup).
  */
 
 if (isset($_GET["save"])) { //save
@@ -32,8 +42,6 @@ if (isset($_GET["reset"])) { //reset (page 1)
     setcookie("page", 000001); //reset cookie
     $page =1; //reset from previous information given to the server
 }
-
-
 
 /*
  * Setting up the comic
@@ -49,7 +57,6 @@ $image = "./comicfiles/".$page."/image.png";
 //title path
 $titlePath = "./comicfiles/".$page."/title.txt";
 $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
-
 
 ?>
 
@@ -105,7 +112,6 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
         </div><!-- /.nav-collapse -->
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-          
           <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"> </span><span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -123,6 +129,9 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
                         </span>
                     </div><!-- /input-group -->
                   </form>
+                  <li role="presentation" class="divider"></li>
+                  <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-fb"></span> Social Media</li>
+                  <li></li>
               </ul>
           </li>
           </ul>
@@ -131,9 +140,7 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
     </div><!-- /.navbar -->
 
     <div class="container">
-
       <div class="row row-offcanvas row-offcanvas-right">
-
         <div class="col-xs-12 col-sm-9">
           <p class="pull-right visible-xs">
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Pages</button>
@@ -141,6 +148,21 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
           <br>
           <br>
             
+<?php
+ 
+/*
+ * Checking to see that the page you trying to view is liginimet (note:placed here for the on-screen error looks nicer)
+ */
+
+if (file_exists($image) && file_exists($titlePath) && file_exists($textPath)) {
+    echo '';
+}
+else {
+    echo '<div class="alert alert-warning" role="alert"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><center>Looks like you are looking for a page that is not created yet! Sorry about that :(</center></div>';   
+}
+
+?>
+
           <div class="jumbotron">
             <center><p><h1><?php echo $title;?></h1></p></center>
             <center><p><img src="<?php echo $image;?>" alt="Image for <?php echo $page;?>." width="100%" hight="100%"></p></center>
@@ -148,9 +170,9 @@ $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
             <br>
             <center><p><a href="./?page=<?php echo $page+1;?>"><button class="btn btn-info btn-sm">==></button></a></p></center>
           </div>
-            
+
             <!-- Place contents of row.html here for best result. -->
-          
+
         </div><!--/span-->
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
@@ -173,7 +195,6 @@ else {
             <a href="./?page=<?php echo $page +6;?>" class="list-group-item">Page <?php echo $page +6;?></a>
             <a href="./?page=<?php echo $page +7;?>" class="list-group-item">Page <?php echo $page +7;?></a>
             <a href="./?page=<?php echo $page +8;?>" class="list-group-item">Page <?php echo $page +8;?></a>
-
           </div>
         </div><!--/span-->
       </div><!--/row-->
@@ -185,7 +206,6 @@ else {
       </footer>
 
     </div><!--/.container-->
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -193,5 +213,5 @@ else {
     <script src="./htmladd/bootstrap.min.js"></script>
     <script src="./htmladd/offcanvas.js"></script>
 
-</body>
+    </body>
 </html>
