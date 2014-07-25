@@ -1,3 +1,5 @@
+[To-Do list](http://github.com/fredghostkyle/Room404/master/todo.md/)
+
 Room 404 - GitHub 
 ========
 Welcome! I'm sure if you are here that you have found room404comic.com by now. If you have no feel free to check us out. You can also quickly get there from visiting http://Fredghostkyle.github.com/Room404 If that is easier for you. 
