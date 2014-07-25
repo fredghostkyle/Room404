@@ -2,7 +2,6 @@
 //Remove errors from the page.
 error_reporting(0); 
 
-
 /*
  * Setting up the comic's settings
  */
