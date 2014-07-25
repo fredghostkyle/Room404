@@ -1,4 +1,4 @@
-[To-Do list](http://github.com/fredghostkyle/Room404/master/todo.md/)
+### [To-Do list](https://github.com/fredghostkyle/Room404/blob/master/todo.md
 
 Room 404 - GitHub 
 ========
