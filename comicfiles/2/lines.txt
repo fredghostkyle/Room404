@@ -1,5 +1,0 @@
-This is just a example. (page1)
-<br>
-<h4>HEYYYYY</h4>
-<br>
-<h6>small</h6>

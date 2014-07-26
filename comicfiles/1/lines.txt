@@ -1,3 +1,0 @@
-This is just a example.
-<br>
-<h1>YOLO</h1>
