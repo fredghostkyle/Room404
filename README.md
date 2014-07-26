@@ -1,8 +1,9 @@
 
-[Forums To-Do list](http://github.com/fredghostkyle/Room404/blob/forums/todo.md/)
-[To-Do list](http://github.com/fredghostkyle/Room404/blob/master/todo.md/)
 [Main branch/Web Comic](http://github.com/fredghostkyle/Room404/)
 =======
+[Forums To-Do list](http://github.com/fredghostkyle/Room404/blob/forums/todo.md/)
+
+[To-Do list](http://github.com/fredghostkyle/Room404/blob/master/todo.md/)
 
 Room 404 - forums branch
 ========
