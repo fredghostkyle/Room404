@@ -49,6 +49,6 @@ $Configuration['Routes']['DefaultController'] = array('categories', 'Internal');
 // Vanilla
 $Configuration['Vanilla']['Version'] = '2.1';
 $Configuration['Vanilla']['Discussions']['Layout'] = 'modern';
-$Configuration['Vanilla']['Categories']['Layout'] = 'table';
+$Configuration['Vanilla']['Categories']['Layout'] = 'modern';
 
-// Last edited by fredghostkyle (127.0.0.1)2014-07-26 03:52:44
+// Last edited by fredghostkyle (127.0.0.1)2014-07-26 04:08:58
