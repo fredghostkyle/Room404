@@ -1,5 +1,6 @@
 To-Do List
 =======
+[Forums's TO-Do list](https://github.com/fredghostkyle/Room404/blob/forums/todo.md/)
 
 - [x] Update website's name
     - See comment https://github.com/fredghostkyle/Room404/commit/df3c90531f083919c9e058b8e126cf119cacf4a1
