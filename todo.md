@@ -1,6 +1,6 @@
 To-Do List (forums)
 =======
-(Master's To-Do list)[https://github.com/fredghostkyle/Room404/blob/master/todo.md]
+[Master's To-Do list](https://github.com/fredghostkyle/Room404/blob/master/todo.md)
 
 - [x] Find forum software that is open sorce. 
     - see comment https://github.com/fredghostkyle/Room404/commit/c9a7fbadc7fedba327b098f58ff8b825c832fde8
