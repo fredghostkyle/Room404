@@ -38,15 +38,35 @@ if (isset($_GET["reset"])) { //reset (page 1)
 /*
  * Setting up the comic
  */
-
-//regular display of text
+//lines path
 $textPath = "./comicfiles/".$page."/lines.txt";
-$text = file_get_contents($textPath, FILE_USE_INCLUDE_PATH);
-
-//image path
-$image = "./comicfiles/".$page."/image.png";
 
 //title path
 $titlePath = "./comicfiles/".$page."/title.txt";
+
+//image
+$image = "./comicfiles/".$page."/image.png";
+
+if(file_exists($image) && file_exists($titlePath) && file_exists($textPath)) {
+    echo '';
+}
+else {
+    //lines path
+    $textPath = "./comicfiles/missing/lines.txt";
+
+    //title path
+    $titlePath = "./comicfiles/missing/title.txt";
+
+    //image
+    $image = "./comicfiles/missing/image.png";
+    
+    //declare missing
+    $missing = true;
+}
+//lines
+$text = file_get_contents($textPath, FILE_USE_INCLUDE_PATH);
+
+//title
 $title =  file_get_contents($titlePath, FILE_USE_INCLUDE_PATH);
+
 ?>

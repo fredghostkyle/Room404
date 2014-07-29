@@ -74,9 +74,6 @@ error_reporting(0);
                         </span>
                     </div><!-- /input-group -->
                   </form>
-                  <li role="presentation" class="divider"></li>
-                  <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-fb"></span> Social Media</li>
-                  <li></li>
               </ul>
           </li>
           </ul>
@@ -94,18 +91,13 @@ error_reporting(0);
           <br>
             
 <?php
- 
 /*
  * Checking to see that the page you trying to view is liginimet (note:placed here for the on-screen error looks nicer)
  */
 
-if (file_exists($image) && file_exists($titlePath) && file_exists($textPath)) {
-    echo '';
-}
-else {
+if ($missing) {
     echo '<div class="alert alert-warning" role="alert"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><center>Looks like you are looking for a page that is not created yet! Sorry about that :(</center></div>';   
 }
-
 ?>
 
           <div class="jumbotron">
