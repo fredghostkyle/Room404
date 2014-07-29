@@ -13,6 +13,5 @@ To-Do List
     - [ ] Add social media links 
 - [x] Work on $welcome popup
     - see comment https://github.com/fredghostkyle/Room404/commit/80048d1026d702f31a00a0e46bffac3f69e8b177
-- [ ] Create Welcome comic picture
 - [ ] Create not-found pictures 
 
