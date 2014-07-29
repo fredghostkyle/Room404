@@ -8,4 +8,3 @@ To-Do List (forums)
     - [ ] Update nav to better fit us
 - [ ] Change settngs to better suit Room 404
 - [ ] Create catagories
-- [ ]
