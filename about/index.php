@@ -113,6 +113,21 @@
               <p><a class="btn btn-default" href="http://fb.com/" role="button">FB</a></p>
             </div><!--/span-->
           </div>
+      <br>
+      <br>
+      
+      <center><h1>Sponsors</h1></center>
+      <hr>
+      <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <center>
+              <p><a href="http://duxburyfreelibrary.org//?src=room404"><img src="http://www.duxburyfreelibrary.org/images/2012%20Images%20for%20opening%20page/DFL-logo-duxoval-large.png" ></a></p>
+              </center>
+            </div>
+            <div class="col-md-4"></div>
+      </div>  
+      <br>
       <hr>
 
       <footer>
