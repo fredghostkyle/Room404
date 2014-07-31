@@ -15,4 +15,6 @@ To-Do List
     - [ ] Create working hosts for them (note:the .org domain will host forums see the branch forums)
         - Got some PhP on my IP so they kinda work....
 - [ ] Get the Cog/Gear working across the whole website. 
-    - [ ] Add social media links 
+    - see comment: https://github.com/fredghostkyle/Room404/commit/73cdc2f5e5b959eb04e8c5f1710b5c9ffdfeb1e8
+    - ~~Add social media links~~
+        - decided agenst
