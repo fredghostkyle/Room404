@@ -84,13 +84,13 @@
       <div class="row">
        <div class="col-6 col-sm-6 col-lg-4">
               <h2>Lauren</h2>
-              <p>Lauren is a writer and artist of primarly fan work, but offten works on original works of art. She came up with the idea for a webcomic and controls the beast that it is. Her job is to mainly create the plot and orginise the project then giving the final okay. </p>
-              <p><a class="btn btn-default" href="./" role="button">View details »</a></p>
+              <p>Lauren is a writer and artist of primarly fan work, but offten works on original works of art. She came up with the idea for a webcomic and controls the beast that it is. Her job is to mainly create the plot and orginize the project then giving the final okay. </p>
+              <p><a class="btn btn-default" href="http://felixia-mew.deviantart.com/" role="button">deviantART</a><a class="btn btn-default" href="http://felixia-mew.tumblr.com/" role="button">Tumblr</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
               <h2>Kyle</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="./" role="button">View details »</a></p>
+              <p>Kyle is the web developer for the website. He created this website and also created the forums. He helped create some of the charectors and is currently weeding out the bugs on the website. </p>
+              <p><a class="btn btn-default" href="http://twitter.com/fredghostkyle" role="button">Twitter</a><a class="btn btn-default" href="http://github.com/fredghostkyle/Room404" role="button">Github</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
               <h2>Anna</h2>
@@ -109,8 +109,7 @@
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
               <h2>Clay</h2>
-              <p>Clay is a flambooint young man who loves theater. He has a deep admeratoin for Spider Mand(tm). He also likes to dress very nicly. He comes up with 30 jokes to make people lafe. I worked on the plot and charetors and I'm helping with the music. (I am also sleeping with you wife &lt;3)</p>
-              <p><a class="btn btn-default" href="http://fb.com/" role="button">FB</a></p>
+              <p>Clay is a flambooint young man who loves theater. He has a deep admeratoin for Spider Mand. He also likes to dress very nicly. He comes up with 30 jokes to make people laugh. He worked on the plot and charetors and I'm helping with the music. (I am also sleeping with you wife &lt;3)</p>
             </div><!--/span-->
           </div>
       <br>
