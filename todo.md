@@ -18,6 +18,6 @@ To-Do List
     - see comment: https://github.com/fredghostkyle/Room404/commit/73cdc2f5e5b959eb04e8c5f1710b5c9ffdfeb1e8
     - ~~Add social media links~~
         - decided agenst
-- Add index.php files to redirect to main were user aren't allowed
+- [x] Add index.php files to redirect to main were user aren't allowed
     - basicly added nono redirects to places
     - see comment: https://github.com/fredghostkyle/Room404/commit/7daaf517073b75764f05b4a858386a3f7614f95e
