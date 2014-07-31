@@ -29,7 +29,7 @@
   </head>
 
   <body>
-        <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -49,13 +49,13 @@
         </div><!-- /.nav-collapse -->
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-          
           <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"> </span><span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                  <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-file"></span> Page Placment</li>
-                  <li><a href="#"><span class="glyphicon glyphicon-floppy-save"></span> Save current page (automatic)</a></li>
-                  <li class="active"><a href="#"><span class="glyphicon glyphicon-fire"></span> Reset page placment</a></li>
+                  <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-file"></span> Page Placment</a></li>
+                  <li><a href="../../?save="><span class="glyphicon glyphicon-floppy-save"></span> Save current page (automatic)</a></li>
+                  <li><a href="../../?reset="><span class="glyphicon glyphicon-fire"></span> Reset page placment</a></li>
+                  <li class="active"><a href="../../comicfiles/workings"><span class="glyphicon glyphicon-info-sign"></span> Info on page placment/saving</a>
                   <li role="presentation" class="divider"></li>
                   <li role="presentation" class="dropdown-header"><span class="glyphicon glyphicon-file"></span> Page Jump</li>
                   <form class="navbar-form form-group-sm" role="search" method="get" action="../../">

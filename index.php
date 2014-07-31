@@ -105,7 +105,7 @@ if ($missing) {
             <center><p><img src="<?php echo $image;?>" alt="Image for <?php echo $page;?>." width="100%" hight="100%"></p></center>
             <center><h5><?php echo $text;?></h5></center>
             <br>
-            <center><p><a href="./?page=<?php echo $page+1;?>"><button class="btn btn-info btn-sm">==></button></a></p></center>
+            <center><p><a href="./?page=<?php echo $page +1;?>"><button class="btn btn-info btn-sm">==></button></a></p></center>
           </div>
 
             <!-- Place contents of row.html here for best result. -->
