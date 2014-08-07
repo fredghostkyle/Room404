@@ -109,7 +109,7 @@
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
               <h2>Clay</h2>
-              <p>Clay is a flambooint young man who loves theater. He has a deep admeratoin for Spider Mand. He also likes to dress very nicly. He comes up with 30 jokes to make people laugh. He worked on the plot and charetors and I'm helping with the music. (I am also sleeping with you wife &lt;3)</p>
+              <p>Clay is a flambooint young man who loves theater. He has a deep admeratoin for Spider Mand. He also likes to dress very nicly. He comes up with 30 jokes to make people laugh. He worked on the plot and characters. (I am also sleeping with you wife &lt;3) Currently inactive at this time.</p>
             </div><!--/span-->
           </div>
       <br>
